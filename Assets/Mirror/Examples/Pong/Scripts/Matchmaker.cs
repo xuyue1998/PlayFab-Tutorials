@@ -13,7 +13,7 @@ public class Matchmaker : MonoBehaviour
     private string ticketId;
     private Coroutine pollTicketCoroutine;
 
-    private static string QueueName = "DefaultQueue";
+    public string QueueName = "DefaultQueue";
 
     public void StartMatchmaking()
     {

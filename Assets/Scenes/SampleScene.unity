@@ -329,7 +329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &665423900
 Transform:
   m_ObjectHideFlags: 0
@@ -377,6 +377,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2621d4729e0db47a1eeaff2ee598cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  signInDisplay: {fileID: 0}
+  usernameInputField: {fileID: 0}
+  emailInputField: {fileID: 0}
+  passwordInputField: {fileID: 0}
 --- !u!4 &740351601
 Transform:
   m_ObjectHideFlags: 0
